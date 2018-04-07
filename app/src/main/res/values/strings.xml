@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Educational App</string>
+    <string name="Q1">1. Who has most International Wicket ?</string>
+    <string name="Q1_Op1">Shane Warne</string>
+    <string name="Q1_Op2">Anil Kumble</string>
+    <string name="Q1_Op3">Muttaih Muralidharan</string>
+    <string name="Q1_Op4">Dennis Lilee</string>
+    <string name="Q2">2. Who has most International Runs ?</string>
+    <string name="Q2_Op1">Kumar Sangakkara</string>
+    <string name="Q2_Op2">Sachin Tendulkar</string>
+    <string name="Q2_Op3">Virat Kohli</string>
+    <string name="Q2_Op4">Ricky Ponting</string>
+    <string name="Q3">3.Which player has the record of most Double centry in tests ?</string>
+    <string name="Q3_Op1">Kumar Sangakkara</string>
+    <string name="Q3_Op2">Sir Don Bradman</string>
+    <string name="Q3_Op3">Virat Kohli</string>
+    <string name="Q3_Op4">Mahela Jayawardene</string>
+    <string name="Q4">4. Which country won 2015 World Cup ?</string>
+    <string name="Q4_Op1">Australia</string>
+    <string name="Q4_Op2">South Africa</string>
+    <string name="Q4_Op3">India</string>
+    <string name="Q4_Op4">England</string>
+    <string name="Q5">5. Which player has the record of most Double centry in ODI\'s ?</string>
+    <string name="Q5_Op1">Martin Guptil</string>
+    <string name="Q5_Op2">Chris Gyale</string>
+    <string name="Q5_Op3">M.S. Dhoni</string>
+    <string name="Q5_Op4">Rohit Sharma</string>
+    <string name="Q6">6. Choose all those player\'s who have got a Test hattrick?</string>
+    <string name="Q6_Op1">Harbhajan Singh</string>
+    <string name="Q6_Op2">Anil Kumble</string>
+    <string name="Q6_Op3">Venkatesh Prasad</string>
+    <string name="Q6_Op4">Irfan Pathan</string>
+    <string name="Q7">7. Which player has the best ODI bowling figure ?</string>
+    <string name="Q7_Op1">Wasim Akram</string>
+    <string name="Q7_Op2">Ashish Nehra</string>
+    <string name="Q7_Op3">Chaminda Vaas</string>
+    <string name="Q7_Op4">Trent Boult</string>
+    <string name="Q8">8. Which team has the highest T20 score ?</string>
+    <string name="Q8_Op1">SriLanka</string>
+    <string name="Q8_Op2">Australia</string>
+    <string name="Q8_Op3">Yorkshire</string>
+    <string name="Q8_Op4">Royal Challenger Banglore</string>
+    <string name="Q9">9. Which player has the fastest T20 fifty ?</string>
+    <string name="Q9_Op1">Yuvraj Singh</string>
+    <string name="Q9_Op2">Chris Gyale</string>
+    <string name="Q9_Op3">Brendon Mcculum</string>
+    <string name="Q9_Op4">AB Devillers</string>
+    <string name="Q10">10. Which player has won the ICC cricketer of the year in 2015?</string>
+    <string name="getResult">Submit</string>
+    <string name="quiz_name">CRICSPARK</string>
+    <string name="name">Enter your name</string>
+    <string name="Answer">Answer</string>
+
+
+</resources>
