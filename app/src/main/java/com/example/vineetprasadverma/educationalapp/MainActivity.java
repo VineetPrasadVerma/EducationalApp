@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -132,15 +133,30 @@ public class MainActivity extends AppCompatActivity {
         updateScoreFromQuestion9();
         updateScoreFromQuestion10();
         Toast.makeText(this, playerName + ", You got " + score + " correct", Toast.LENGTH_LONG).show();
-        int wrongAnswer = 5 - score;
+        int wrongAnswer = 10 - score;
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse("mailto:")); // only email apps should handle this
         intent.putExtra(Intent.EXTRA_SUBJECT, "Result of Educational App for " + playerName);
-        intent.putExtra(Intent.EXTRA_TEXT, "Total Questions = 5\nCorrect answer = " + score + "\nWrong Answer = " + wrongAnswer);
+        intent.putExtra(Intent.EXTRA_TEXT, "Total Questions = 10\nCorrect answer = " + score + "\nWrong Answer = " + wrongAnswer);
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
         }
         score = 0;
+    }
+
+    public void restartActivity(View view){
+
+        updateScoreFromQuestion1();
+        updateScoreFromQuestion2();
+        updateScoreFromQuestion3();
+        updateScoreFromQuestion4();
+        updateScoreFromQuestion5();
+        updateScoreFromQuestion6();
+        updateScoreFromQuestion7();
+        updateScoreFromQuestion8();
+        updateScoreFromQuestion9();
+        updateScoreFromQuestion10();
+
     }
 
 

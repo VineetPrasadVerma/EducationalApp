@@ -458,5 +458,14 @@
             android:text="@string/getResult"
             android:layout_marginBottom="@dimen/bottom_margin"/>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/top_margin"
+            android:onClick="restartActivity"
+            android:text="@string/reset"
+            android:layout_marginBottom="@dimen/bottom_margin"/>
+
     </LinearLayout>
 </ScrollView>

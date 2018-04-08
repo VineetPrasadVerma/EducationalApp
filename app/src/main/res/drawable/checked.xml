@@ -14,8 +14,8 @@
                         android:endColor="#FFFFFF"
                         android:angle="270" />
                     <size
-                        android:width="20dp"
-                        android:height="20dp" />
+                        android:width="25dp"
+                        android:height="25dp" />
                 </shape>
             </item>
 
@@ -36,7 +36,7 @@
                 android:width="19dp"
                 android:height="2dp"
                 android:top="16dp"
-                android:left="9dp">
+                android:left="8dp">
                 <rotate
                     android:fromDegrees="-45">
                     <shape android:shape="rectangle">
