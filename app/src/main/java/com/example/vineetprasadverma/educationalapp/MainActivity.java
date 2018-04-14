@@ -15,7 +15,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 /**
- * This is a quiz3 app that displays result in the toast message
+ * This is a quiz app that displays result in the toast message
  */
 public class MainActivity extends AppCompatActivity {
 
@@ -80,7 +80,9 @@ public class MainActivity extends AppCompatActivity {
         resetButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // reset score
                 score = 0;
+
                 int selectedId1 = radioGroup1.getCheckedRadioButtonId();
                 int selectedId2 = radioGroup2.getCheckedRadioButtonId();
                 int selectedId3 = radioGroup3.getCheckedRadioButtonId();
@@ -111,29 +113,40 @@ public class MainActivity extends AppCompatActivity {
                 editText.setText("");
                 editText.setTextColor(Color.WHITE);
 
-                radioButton1.setChecked(false);
-                radioButton1.setTextColor(Color.WHITE);
+                if( radioButton1 != null){
+                    radioButton1.setTextColor(Color.WHITE);
+                }
+                if( radioButton2 != null){
+                    radioButton2.setTextColor(Color.WHITE);
+                }
+                if( radioButton3 != null){
+                    radioButton3.setTextColor(Color.WHITE);
+                }
+                if( radioButton4 != null){
+                    radioButton4.setTextColor(Color.WHITE);
+                }
+                if( radioButton5 != null){
+                    radioButton5.setTextColor(Color.WHITE);
+                }
+                if( radioButton7 != null){
+                    radioButton7.setTextColor(Color.WHITE);
+                }
+                if( radioButton8 != null){
+                    radioButton8.setTextColor(Color.WHITE);
+                }
+                if( radioButton9 != null){
+                    radioButton9.setTextColor(Color.WHITE);
+                }
 
-                radioButton2.setChecked(false);
-                radioButton2.setTextColor(Color.WHITE);
-
-                radioButton3.setChecked(false);
-                radioButton3.setTextColor(Color.WHITE);
-
-                radioButton4.setChecked(false);
-                radioButton4.setTextColor(Color.WHITE);
-
-                radioButton5.setChecked(false);
-                radioButton5.setTextColor(Color.WHITE);
-
-                radioButton7.setChecked(false);
-                radioButton7.setTextColor(Color.WHITE);
-
-                radioButton8.setChecked(false);
-                radioButton8.setTextColor(Color.WHITE);
-
-                radioButton9.setChecked(false);
-                radioButton9.setTextColor(Color.WHITE);
+                // reset radio groups
+                radioGroup1.clearCheck();
+                radioGroup2.clearCheck();
+                radioGroup3.clearCheck();
+                radioGroup4.clearCheck();
+                radioGroup5.clearCheck();
+                radioGroup7.clearCheck();
+                radioGroup8.clearCheck();
+                radioGroup9.clearCheck();
 
 
             }
@@ -174,16 +187,20 @@ public class MainActivity extends AppCompatActivity {
                 RadioButton radioButton9 = findViewById(selectedId9);
 
 
-                if (selectedId1 == R.id.radio_button_Q1_Op3) {
+                if (selectedId1 == R.id.radio_button_Q1_Op3){
                     score += 1;
                     radioButton1.setTextColor(Color.GREEN);
-                } else {
+                } else if(selectedId1 == -1){
+
+                } else{
                     radioButton1.setTextColor(Color.RED);
                 }
 
                 if (selectedId2 == R.id.radio_button_Q2_Op2) {
                     score += 1;
                     radioButton2.setTextColor(Color.GREEN);
+                } else if(selectedId1 == -1){
+
                 } else {
                     radioButton2.setTextColor(Color.RED);
                 }
@@ -191,6 +208,8 @@ public class MainActivity extends AppCompatActivity {
                 if (selectedId3 == R.id.radio_button_Q3_Op2) {
                     score += 1;
                     radioButton3.setTextColor(Color.GREEN);
+                } else if(selectedId1 == -1){
+
                 } else {
                     radioButton3.setTextColor(Color.RED);
                 }
@@ -198,6 +217,8 @@ public class MainActivity extends AppCompatActivity {
                 if (selectedId4 == R.id.radio_button_Q4_Op1) {
                     score += 1;
                     radioButton4.setTextColor(Color.GREEN);
+                } else if(selectedId1 == -1){
+
                 } else {
                     radioButton4.setTextColor(Color.RED);
                 }
@@ -205,6 +226,8 @@ public class MainActivity extends AppCompatActivity {
                 if (selectedId5 == R.id.radio_button_Q5_Op4) {
                     score += 1;
                     radioButton5.setTextColor(Color.GREEN);
+                } else if(selectedId1 == -1){
+
                 } else {
                     radioButton5.setTextColor(Color.RED);
                 }
@@ -212,6 +235,8 @@ public class MainActivity extends AppCompatActivity {
                 if (selectedId7 == R.id.radio_button_Q7_Op3) {
                     score += 1;
                     radioButton7.setTextColor(Color.GREEN);
+                } else if(selectedId1 == -1){
+
                 } else {
                     radioButton7.setTextColor(Color.RED);
                 }
@@ -219,6 +244,8 @@ public class MainActivity extends AppCompatActivity {
                 if (selectedId8 == R.id.radio_button_Q8_Op4) {
                     score += 1;
                     radioButton8.setTextColor(Color.GREEN);
+                } else if(selectedId1 == -1){
+
                 } else {
                     radioButton8.setTextColor(Color.RED);
                 }
@@ -226,6 +253,8 @@ public class MainActivity extends AppCompatActivity {
                 if (selectedId9 == R.id.radio_button_Q9_Op1) {
                     score += 1;
                     radioButton9.setTextColor(Color.GREEN);
+                } else if(selectedId1 == -1){
+
                 } else {
                     radioButton9.setTextColor(Color.RED);
                 }

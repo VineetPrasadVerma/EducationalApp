@@ -637,6 +637,7 @@
             android:layout_marginLeft="@dimen/left_margin"
             android:fontFamily="cursive"
             android:hint="@string/Answer"
+            android:textColorHint="@color/hintcolor"
             android:backgroundTint="#F50057"
             android:inputType="textCapWords"
             android:textColor="#00BCD4"
