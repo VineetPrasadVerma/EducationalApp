@@ -15,7 +15,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 /**
- * This is a quiz app that displays result in the toast message
+ * This is a quiz3 app that displays result in the toast message
  */
 public class MainActivity extends AppCompatActivity {
 
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getView();
+       getView();
 
         /**
          * This listener is called when the reset button is pressed
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         resetButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                score = 0;
                 int selectedId1 = radioGroup1.getCheckedRadioButtonId();
                 int selectedId2 = radioGroup2.getCheckedRadioButtonId();
                 int selectedId3 = radioGroup3.getCheckedRadioButtonId();
@@ -103,37 +103,37 @@ public class MainActivity extends AppCompatActivity {
                 checkBox2.setChecked(false);
                 checkBox3.setChecked(false);
                 checkBox4.setChecked(false);
-                checkBox1.setTextColor(Color.BLACK);
-                checkBox2.setTextColor(Color.BLACK);
-                checkBox3.setTextColor(Color.BLACK);
-                checkBox4.setTextColor(Color.BLACK);
+                checkBox1.setTextColor(Color.WHITE);
+                checkBox2.setTextColor(Color.WHITE);
+                checkBox3.setTextColor(Color.WHITE);
+                checkBox4.setTextColor(Color.WHITE);
 
                 editText.setText("");
-                editText.setTextColor(Color.BLACK);
+                editText.setTextColor(Color.WHITE);
 
                 radioButton1.setChecked(false);
-                radioButton1.setTextColor(Color.BLACK);
+                radioButton1.setTextColor(Color.WHITE);
 
                 radioButton2.setChecked(false);
-                radioButton2.setTextColor(Color.BLACK);
+                radioButton2.setTextColor(Color.WHITE);
 
                 radioButton3.setChecked(false);
-                radioButton3.setTextColor(Color.BLACK);
+                radioButton3.setTextColor(Color.WHITE);
 
                 radioButton4.setChecked(false);
-                radioButton4.setTextColor(Color.BLACK);
+                radioButton4.setTextColor(Color.WHITE);
 
                 radioButton5.setChecked(false);
-                radioButton5.setTextColor(Color.BLACK);
+                radioButton5.setTextColor(Color.WHITE);
 
                 radioButton7.setChecked(false);
-                radioButton7.setTextColor(Color.BLACK);
+                radioButton7.setTextColor(Color.WHITE);
 
                 radioButton8.setChecked(false);
-                radioButton8.setTextColor(Color.BLACK);
+                radioButton8.setTextColor(Color.WHITE);
 
                 radioButton9.setChecked(false);
-                radioButton9.setTextColor(Color.BLACK);
+                radioButton9.setTextColor(Color.WHITE);
 
 
             }
@@ -234,12 +234,11 @@ public class MainActivity extends AppCompatActivity {
                     score += 1;
                     checkBox1.setTextColor(Color.GREEN);
                     checkBox4.setTextColor(Color.GREEN);
-                }else if(selectedCheckBox1){
-                    checkBox2.setTextColor(Color.BLACK);
-                }
-                else {
+                } else {
                     checkBox1.setTextColor(Color.RED);
                     checkBox4.setTextColor(Color.RED);
+                    checkBox2.setTextColor(Color.RED);
+                    checkBox3.setTextColor(Color.RED);
                 }
 
                 if (name.equals("Steve Smith")) {
@@ -257,7 +256,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * This method displays the result in the toast message and send the result to the msil of the user playing the quiz
+     * This method displays the result in the toast message and send the result to the msil of the user playing the quiz3
      */
     private void getResult() {
         EditText name = (EditText) findViewById(R.id.name_view);

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
+    android:background="@drawable/quiz3"
     tools:context="com.example.vineetprasadverma.educationalapp.MainActivity">
 
     <LinearLayout
@@ -32,6 +33,8 @@
             android:layout_marginLeft="@dimen/left_margin"
             android:fontFamily="cursive"
             android:hint="@string/name"
+            android:backgroundTint="#F50057"
+            android:textColorHint="@color/hintcolor"
             android:inputType="textCapWords"
             android:textColor="#00BCD4"
             android:textSize="@dimen/textsize"
@@ -62,6 +65,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
                 android:text="@string/Q1_Op1"
+                android:buttonTint="#F50057"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/radio_button_colors"
                 android:textStyle="bold" />
@@ -70,6 +74,7 @@
                 android:id="@+id/radio_button_Q1_Op2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:buttonTint="#F50057"
                 android:fontFamily="cursive"
                 android:text="@string/Q1_Op2"
                 android:textAppearance="?android:textAppearanceLarge"
@@ -81,6 +86,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
+                android:buttonTint="#F50057"
                 android:text="@string/Q1_Op3"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/radio_button_colors"
@@ -92,6 +98,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
                 android:text="@string/Q1_Op4"
+                android:buttonTint="#F50057"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/radio_button_colors"
                 android:textStyle="bold" />
@@ -122,6 +129,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
+                android:buttonTint="#F50057"
                 android:text="@string/Q2_Op1"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
@@ -133,6 +141,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
                 android:text="@string/Q2_Op2"
+                android:buttonTint="#F50057"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
                 android:textStyle="bold" />
@@ -142,6 +151,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
+                android:buttonTint="#F50057"
                 android:text="@string/Q2_Op3"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
@@ -152,6 +162,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
+                android:buttonTint="#F50057"
                 android:text="@string/Q2_Op4"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
@@ -182,6 +193,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
+                android:buttonTint="#F50057"
                 android:text="@string/Q3_Op1"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
@@ -192,6 +204,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
+                android:buttonTint="#F50057"
                 android:text="@string/Q3_Op2"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
@@ -203,6 +216,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
                 android:text="@string/Q3_Op3"
+                android:buttonTint="#F50057"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
                 android:textStyle="bold" />
@@ -212,6 +226,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
+                android:buttonTint="#F50057"
                 android:text="@string/Q3_Op4"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
@@ -243,6 +258,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
                 android:text="@string/Q4_Op1"
+                android:buttonTint="#F50057"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
                 android:textStyle="bold" />
@@ -253,6 +269,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
                 android:text="@string/Q4_Op2"
+                android:buttonTint="#F50057"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
                 android:textStyle="bold" />
@@ -263,6 +280,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
                 android:text="@string/Q4_Op3"
+                android:buttonTint="#F50057"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
                 android:textStyle="bold" />
@@ -272,6 +290,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
+                android:buttonTint="#F50057"
                 android:text="@string/Q2_Op4"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
@@ -302,6 +321,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
+                android:buttonTint="#F50057"
                 android:text="@string/Q5_Op1"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
@@ -312,6 +332,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
+                android:buttonTint="#F50057"
                 android:text="@string/Q5_Op2"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
@@ -322,6 +343,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
+                android:buttonTint="#F50057"
                 android:text="@string/Q5_Op3"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
@@ -333,6 +355,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
                 android:text="@string/Q5_Op4"
+                android:buttonTint="#F50057"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
                 android:textStyle="bold" />
@@ -427,6 +450,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
                 android:text="@string/Q7_Op1"
+                android:buttonTint="#F50057"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
                 android:textStyle="bold" />
@@ -436,6 +460,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
+                android:buttonTint="#F50057"
                 android:text="@string/Q7_Op2"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
@@ -446,6 +471,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
+                android:buttonTint="#F50057"
                 android:text="@string/Q7_Op3"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
@@ -457,6 +483,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
                 android:text="@string/Q7_Op4"
+                android:buttonTint="#F50057"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
                 android:textStyle="bold" />
@@ -487,6 +514,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
                 android:text="@string/Q8_Op1"
+                android:buttonTint="#F50057"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
                 android:textStyle="bold" />
@@ -497,6 +525,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
                 android:text="@string/Q8_Op2"
+                android:buttonTint="#F50057"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
                 android:textStyle="bold" />
@@ -507,6 +536,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
                 android:text="@string/Q8_Op3"
+                android:buttonTint="#F50057"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
                 android:textStyle="bold" />
@@ -519,6 +549,7 @@
                 android:text="@string/Q8_Op4"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
+                android:buttonTint="#F50057"
                 android:textStyle="bold" />
         </RadioGroup>
 
@@ -547,6 +578,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
                 android:text="@string/Q9_Op1"
+                android:buttonTint="#F50057"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
                 android:textStyle="bold" />
@@ -557,6 +589,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
                 android:text="@string/Q9_Op2"
+                android:buttonTint="#F50057"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
                 android:textStyle="bold" />
@@ -567,6 +600,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
                 android:text="@string/Q9_Op3"
+                android:buttonTint="#F50057"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
                 android:textStyle="bold" />
@@ -576,6 +610,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="cursive"
+                android:buttonTint="#F50057"
                 android:text="@string/Q9_Op4"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:textColor="@color/ques_color"
@@ -588,6 +623,7 @@
             android:layout_marginBottom="@dimen/bottom_margin"
             android:layout_marginLeft="@dimen/left_margin"
             android:fontFamily="cursive"
+            android:textColorHint="@color/hintcolor"
             android:text="@string/Q10"
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="@color/ques_color"
@@ -601,8 +637,9 @@
             android:layout_marginLeft="@dimen/left_margin"
             android:fontFamily="cursive"
             android:hint="@string/Answer"
+            android:backgroundTint="#F50057"
             android:inputType="textCapWords"
-            android:textColor="@color/ques_color"
+            android:textColor="#00BCD4"
             android:textSize="@dimen/textsize"
             android:textStyle="bold" />
 

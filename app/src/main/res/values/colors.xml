@@ -3,8 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="radio_button_colors">#000000</color>
-    <color name="ques_color">#000000</color>
-    <color name="header_color">#000</color>
+    <color name="radio_button_colors">#FFF</color>
+    <color name="ques_color">#FFF</color>
+    <color name="header_color">#FFF</color>
+    <color name="hintcolor">#00BCD4</color>
 
 </resources>
