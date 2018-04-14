@@ -6,4 +6,6 @@
     <dimen name="bottom_margin">16dp</dimen>
     <dimen name="top_margin">16dp</dimen>
     <dimen name="checkbox_padding">8dp</dimen>
+    <dimen name="margin_right">16dp</dimen>
+    <dimen name="textsize">24sp</dimen>
 </resources>
