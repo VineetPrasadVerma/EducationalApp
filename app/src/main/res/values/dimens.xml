@@ -8,4 +8,6 @@
     <dimen name="checkbox_padding">8dp</dimen>
     <dimen name="margin_right">16dp</dimen>
     <dimen name="textsize">24sp</dimen>
+    <dimen name="sixteen_dp">16dp</dimen>
+    <dimen name="eight_dp">8dp</dimen>
 </resources>

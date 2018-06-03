@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       getView();
+        getView();
 
         /**
          * This listener is called when the reset button is pressed
@@ -113,28 +113,28 @@ public class MainActivity extends AppCompatActivity {
                 editText.setText("");
                 editText.setTextColor(Color.WHITE);
 
-                if( radioButton1 != null){
+                if (radioButton1 != null) {
                     radioButton1.setTextColor(Color.WHITE);
                 }
-                if( radioButton2 != null){
+                if (radioButton2 != null) {
                     radioButton2.setTextColor(Color.WHITE);
                 }
-                if( radioButton3 != null){
+                if (radioButton3 != null) {
                     radioButton3.setTextColor(Color.WHITE);
                 }
-                if( radioButton4 != null){
+                if (radioButton4 != null) {
                     radioButton4.setTextColor(Color.WHITE);
                 }
-                if( radioButton5 != null){
+                if (radioButton5 != null) {
                     radioButton5.setTextColor(Color.WHITE);
                 }
-                if( radioButton7 != null){
+                if (radioButton7 != null) {
                     radioButton7.setTextColor(Color.WHITE);
                 }
-                if( radioButton8 != null){
+                if (radioButton8 != null) {
                     radioButton8.setTextColor(Color.WHITE);
                 }
-                if( radioButton9 != null){
+                if (radioButton9 != null) {
                     radioButton9.setTextColor(Color.WHITE);
                 }
 
@@ -187,19 +187,19 @@ public class MainActivity extends AppCompatActivity {
                 RadioButton radioButton9 = findViewById(selectedId9);
 
 
-                if (selectedId1 == R.id.radio_button_Q1_Op3){
+                if (selectedId1 == R.id.radio_button_Q1_Op3) {
                     score += 1;
                     radioButton1.setTextColor(Color.GREEN);
-                } else if(selectedId1 == -1){
+                } else if (selectedId1 == -1) {
 
-                } else{
+                } else {
                     radioButton1.setTextColor(Color.RED);
                 }
 
                 if (selectedId2 == R.id.radio_button_Q2_Op2) {
                     score += 1;
                     radioButton2.setTextColor(Color.GREEN);
-                } else if(selectedId1 == -1){
+                } else if (selectedId1 == -1) {
 
                 } else {
                     radioButton2.setTextColor(Color.RED);
@@ -208,7 +208,7 @@ public class MainActivity extends AppCompatActivity {
                 if (selectedId3 == R.id.radio_button_Q3_Op2) {
                     score += 1;
                     radioButton3.setTextColor(Color.GREEN);
-                } else if(selectedId1 == -1){
+                } else if (selectedId1 == -1) {
 
                 } else {
                     radioButton3.setTextColor(Color.RED);
@@ -217,7 +217,7 @@ public class MainActivity extends AppCompatActivity {
                 if (selectedId4 == R.id.radio_button_Q4_Op1) {
                     score += 1;
                     radioButton4.setTextColor(Color.GREEN);
-                } else if(selectedId1 == -1){
+                } else if (selectedId1 == -1) {
 
                 } else {
                     radioButton4.setTextColor(Color.RED);
@@ -226,7 +226,7 @@ public class MainActivity extends AppCompatActivity {
                 if (selectedId5 == R.id.radio_button_Q5_Op4) {
                     score += 1;
                     radioButton5.setTextColor(Color.GREEN);
-                } else if(selectedId1 == -1){
+                } else if (selectedId1 == -1) {
 
                 } else {
                     radioButton5.setTextColor(Color.RED);
@@ -235,7 +235,7 @@ public class MainActivity extends AppCompatActivity {
                 if (selectedId7 == R.id.radio_button_Q7_Op3) {
                     score += 1;
                     radioButton7.setTextColor(Color.GREEN);
-                } else if(selectedId1 == -1){
+                } else if (selectedId1 == -1) {
 
                 } else {
                     radioButton7.setTextColor(Color.RED);
@@ -244,7 +244,7 @@ public class MainActivity extends AppCompatActivity {
                 if (selectedId8 == R.id.radio_button_Q8_Op4) {
                     score += 1;
                     radioButton8.setTextColor(Color.GREEN);
-                } else if(selectedId1 == -1){
+                } else if (selectedId1 == -1) {
 
                 } else {
                     radioButton8.setTextColor(Color.RED);
@@ -253,7 +253,7 @@ public class MainActivity extends AppCompatActivity {
                 if (selectedId9 == R.id.radio_button_Q9_Op1) {
                     score += 1;
                     radioButton9.setTextColor(Color.GREEN);
-                } else if(selectedId1 == -1){
+                } else if (selectedId1 == -1) {
 
                 } else {
                     radioButton9.setTextColor(Color.RED);
@@ -270,7 +270,7 @@ public class MainActivity extends AppCompatActivity {
                     checkBox3.setTextColor(Color.RED);
                 }
 
-                if (name.equals("Steve Smith")) {
+                if (name.equalsIgnoreCase("Steve Smith")) {
                     score += 1;
                     editText.setTextColor(Color.GREEN);
 
